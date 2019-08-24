@@ -1,2 +1,1 @@
-# ZTxLib
- C#
+# ZTxLib-CSharp
