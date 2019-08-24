@@ -1,0 +1,16 @@
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\bin\Release\ZTxLib.Zip.dll
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\bin\Release\ZTxLib.Zip.pdb
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CoreCompileInputs.cache
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CopyComplete
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\obj\Release\ZTxLib.Zip.dll
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\obj\Release\ZTxLib.Zip.pdb
+E:\..NET\DLL\ZTxLib.Zip\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csprojAssemblyReference.cache
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\bin\Release\ZTxLib.Zip.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\bin\Release\ZTxLib.Zip.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CoreCompileInputs.cache
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CopyComplete
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csprojAssemblyReference.cache

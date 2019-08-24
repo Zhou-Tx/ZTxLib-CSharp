@@ -1,0 +1,16 @@
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\bin\Release\ZTxLib.Drawing.dll
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\bin\Release\ZTxLib.Drawing.pdb
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CoreCompileInputs.cache
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.dll
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.pdb
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\bin\Release\Gma.QrCodeNet.Encoding.dll
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CopyComplete
+E:\..NET\DLL\ZTxLib.Drawing\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csprojAssemblyReference.cache
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\bin\Release\ZTxLib.Drawing.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\bin\Release\ZTxLib.Drawing.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\bin\Release\Gma.QrCodeNet.Encoding.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CoreCompileInputs.cache
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CopyComplete
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csprojAssemblyReference.cache
