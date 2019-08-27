@@ -20,17 +20,17 @@ namespace ZTxLib.Database
         public MySQL(
             string server = "127.0.0.1",
             short port = 3306,
-            string database = "",
             string user = "",
             string password = "",
+            string database = "",
             string charset = "utf8",
             short timeout = 5) => conn =
             new MySqlConnection(
                 $"server={server};" +
                 $"port={port};" +
-                $"database={database};" +
                 $"user={user};" +
                 $"password={password};" +
+                $"database={database};" +
                 $"charset={charset};" +
                 $"connect Timeout={timeout}"
             );
