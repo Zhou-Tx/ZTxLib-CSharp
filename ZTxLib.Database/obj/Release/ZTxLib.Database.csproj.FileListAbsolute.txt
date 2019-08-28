@@ -13,3 +13,4 @@ E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csproj.CoreCompi
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csproj.CopyComplete
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.dll
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csprojAssemblyReference.cache

@@ -1,9 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Management;
 using System.Net;
 using System.Text;
-using System.Management;
-using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace ZTxLib
@@ -11,8 +11,82 @@ namespace ZTxLib
     /// <summary>
     /// 获取本机用户名、MAC地址、内网IP地址、公网IP地址、硬盘ID、CPU序列号、系统名称、物理内存。
     /// </summary>
-    public static class SystemInfo
+    public static partial class SystemInfo
     {
+        /// <summary>
+        /// 操作系统的登录用户名
+        /// </summary>
+        public static string UserName => GetUserName();
+
+        /// <summary>
+        /// 获取本机MAC地址
+        /// </summary>
+        public static string MacAddress => GetMacAddress();
+
+        /// <summary>
+        /// 获取本机MAC地址
+        /// </summary>
+        public static string MacAddr_Local => GetMacAddr_Local();
+
+        /// <summary>
+        /// 获取客户端内网IPv6地址
+        /// </summary>
+        public static string ClientLocalIPv6Address => GetClientLocalIPv6Address();
+
+        /// <summary>
+        /// 获取客户端内网IPv4地址
+        /// </summary>
+        [Obsolete]
+        public static string ClientLocalIPv4Address => GetClientLocalIPv4Address();
+
+        /// <summary>
+        /// 获取客户端内网IPv4地址集合
+        /// </summary>
+        [Obsolete]
+        public static List<string> ClientLocalIPv4AddressList => GetClientLocalIPv4AddressList();
+
+        /// <summary>
+        /// 获取客户端外网IP地址
+        /// </summary>
+        public static string ClientInternetIPAddress => GetClientInternetIPAddress();
+
+        /// <summary>
+        /// 获取本机公网IP地址
+        /// </summary>
+        private static string ClientInternetIPAddress2 => GetClientInternetIPAddress2();
+
+        /// <summary>
+        /// 获取硬盘序号
+        /// </summary>
+        public static string DiskID => GetDiskID();
+
+        /// <summary>
+        /// 获取CpuID
+        /// </summary>
+        public static string CpuID => GetCpuID();
+
+        /// <summary>
+        /// 获取操作系统类型
+        /// </summary>
+        public static string SystemType => GetSystemType();
+
+        /// <summary>
+        /// 获取操作系统名称
+        /// </summary>
+        public static string SystemName => GetSystemName();
+
+        /// <summary>
+        /// 获取物理内存信息
+        /// </summary>
+        public static string TotalPhysicalMemory => GetTotalPhysicalMemory();
+
+        /// <summary>
+        /// 获取主板id
+        /// </summary>
+        public static string MotherBoardID => GetMotherBoardID();
+
+
+
         /// <summary>
         /// 操作系统的登录用户名
         /// </summary>
@@ -121,47 +195,49 @@ namespace ZTxLib
             }
         }
 
-        ///// <summary>
-        ///// 获取客户端内网IPv4地址
-        ///// </summary>
-        ///// <returns>客户端内网IPv4地址</returns>
-        //public static string GetClientLocalIPv4Address()
-        //{
-        //    string strLocalIP = string.Empty;
-        //    try
-        //    {
-        //        IPHostEntry ipHost = Dns.Resolve(Dns.GetHostName());
-        //        IPAddress ipAddress = ipHost.AddressList[0];
-        //        strLocalIP = ipAddress.ToString();
-        //        return strLocalIP;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return "Unknown:" + ex.Message;
-        //    }
-        //}
-        //
-        ///// <summary>
-        ///// 获取客户端内网IPv4地址集合
-        ///// </summary>
-        ///// <returns>返回客户端内网IPv4地址集合</returns>
-        //public static List<string> GetClientLocalIPv4AddressList()
-        //{
-        //    List<string> ipAddressList = new List<string>();
-        //    try
-        //    {
-        //        IPHostEntry ipHost = Dns.Resolve(Dns.GetHostName());
-        //        foreach (IPAddress ipAddress in ipHost.AddressList)
-        //        {
-        //            if (!ipAddressList.Contains(ipAddress.ToString()))
-        //            {
-        //                ipAddressList.Add(ipAddress.ToString());
-        //            }
-        //        }
-        //    }
-        //    catch { }
-        //    return ipAddressList;
-        //}
+        /// <summary>
+        /// 获取客户端内网IPv4地址
+        /// </summary>
+        /// <returns>客户端内网IPv4地址</returns>
+        [Obsolete]
+        public static string GetClientLocalIPv4Address()
+        {
+            string strLocalIP = string.Empty;
+            try
+            {
+                IPHostEntry ipHost = Dns.Resolve(Dns.GetHostName());
+                IPAddress ipAddress = ipHost.AddressList[0];
+                strLocalIP = ipAddress.ToString();
+                return strLocalIP;
+            }
+            catch (Exception ex)
+            {
+                return "Unknown:" + ex.Message;
+            }
+        }
+
+        /// <summary>
+        /// 获取客户端内网IPv4地址集合
+        /// </summary>
+        /// <returns>返回客户端内网IPv4地址集合</returns>
+        [Obsolete]
+        public static List<string> GetClientLocalIPv4AddressList()
+        {
+            List<string> ipAddressList = new List<string>();
+            try
+            {
+                IPHostEntry ipHost = Dns.Resolve(Dns.GetHostName());
+                foreach (IPAddress ipAddress in ipHost.AddressList)
+                {
+                    if (!ipAddressList.Contains(ipAddress.ToString()))
+                    {
+                        ipAddressList.Add(ipAddress.ToString());
+                    }
+                }
+            }
+            catch { }
+            return ipAddressList;
+        }
 
         /// <summary>
         /// 获取客户端外网IP地址
