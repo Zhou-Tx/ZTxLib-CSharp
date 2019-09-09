@@ -12,5 +12,6 @@
 
         object this[string s] { get; }
 
+        string ToString();
     }
 }

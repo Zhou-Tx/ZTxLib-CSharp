@@ -13,4 +13,6 @@ E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CoreCompile
 E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csproj.CopyComplete
 E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.dll
 E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\bin\Release\Gma.QrCodeNet.Encoding.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\bin\Release\Gma.QrCodeNet.Encoding.xml
 E:\..NET\DLL\ZTxLib\ZTxLib.Drawing\obj\Release\ZTxLib.Drawing.csprojAssemblyReference.cache

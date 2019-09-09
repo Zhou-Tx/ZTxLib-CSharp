@@ -5,4 +5,7 @@ E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\ZTxLib.dll
 E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\ZTxLib.pdb
 E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\Interop.IWshRuntimeLibrary.dll
 E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\ZTxLib.csproj.ResolveComReference.cache
+E:\..NET\DLL\ZTxLib\ZTxLib\bin\Release\Newtonsoft.Json.dll
+E:\..NET\DLL\ZTxLib\ZTxLib\bin\Release\Newtonsoft.Json.xml
+E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\ZTxLib.csproj.CopyComplete
 E:\..NET\DLL\ZTxLib\ZTxLib\obj\Release\ZTxLib.csprojAssemblyReference.cache

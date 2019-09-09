@@ -13,4 +13,10 @@ E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csproj.CoreCompi
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csproj.CopyComplete
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.dll
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\BouncyCastle.Crypto.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\Google.Protobuf.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\Renci.SshNet.dll
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\Google.Protobuf.xml
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\MySql.Data.xml
+E:\..NET\DLL\ZTxLib\ZTxLib.Database\bin\Release\Renci.SshNet.xml
 E:\..NET\DLL\ZTxLib\ZTxLib.Database\obj\Release\ZTxLib.Database.csprojAssemblyReference.cache

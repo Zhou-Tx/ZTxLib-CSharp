@@ -13,4 +13,6 @@ E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CoreCompileInputs.c
 E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csproj.CopyComplete
 E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.dll
 E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\bin\Release\ICSharpCode.SharpZipLib.pdb
+E:\..NET\DLL\ZTxLib\ZTxLib.Zip\bin\Release\ICSharpCode.SharpZipLib.xml
 E:\..NET\DLL\ZTxLib\ZTxLib.Zip\obj\Release\ZTxLib.Zip.csprojAssemblyReference.cache
