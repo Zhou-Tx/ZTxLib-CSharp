@@ -14,21 +14,22 @@
         /// 提交一条语句，该函数可用于查询或修改，但不可携带参数
         /// </summary>
         /// <param name="sql"></param>
+        /// <param name="args"></param>
         /// <returns></returns>
         IReader Execute(string sql, params object[] args);
 
         /// <summary>
         /// 提交一条语句，该函数可用于查询或修改
         /// </summary>
-        /// <param name="cmd">一条SQL语句组</param>
+        /// <param name="sql"></param>
         /// <returns>查询结果</returns>
         IReader Execute(SqlCmd sql);
 
         /// <summary>
         /// 提交一项事务，该函数不可用于查询
         /// </summary>
-        /// <param name="cmds">若干条SQL语句组</param>
+        /// <param name="sqls"></param>
         /// <returns>成功/失败</returns>
-        bool Execute(params SqlCmd[] sql);
+        bool Execute(params SqlCmd[] sqls);
     }
 }

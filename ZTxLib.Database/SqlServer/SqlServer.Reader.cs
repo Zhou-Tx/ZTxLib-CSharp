@@ -1,26 +1,25 @@
 ﻿using System.Data.SqlClient;
+using System.Linq;
 
-namespace ZTxLib.Database
+namespace ZTxLib.Database.SqlServer
 {
     public partial class SqlServer
     {
-        internal class Reader : IReader
+        private class Reader : IReader
         {
-            private readonly SqlDataReader reader;
-            public Reader(SqlDataReader reader) => this.reader = reader;
-            public bool Read() => reader.Read();
-            public void Close() => reader.Close();
-            public bool IsClosed => reader.IsClosed;
-            public object this[int i] => reader[i];
-            public object this[string s] => reader[s];
-            public override string ToString()
-            {
-                string s = string.Empty;
-                foreach (var v in reader)
-                    s += ',' + v.ToString();
-                return s.Substring(1);
-            }
-        }
+            private readonly SqlDataReader _reader;
+            public Reader(SqlDataReader reader) => _reader = reader;
+            public bool Read() => _reader.Read();
+            public void Close() => _reader.Close();
+            public bool IsClosed => _reader.IsClosed;
+            public object this[int i] => _reader[i];
+            public object this[string s] => _reader[s];
 
+            public override string ToString() =>
+                _reader.Cast<object>()
+                    .Aggregate(string.Empty, (current, obj) =>
+                        current + (',' + obj.ToString()))
+                    .Substring(1);
+        }
     }
 }

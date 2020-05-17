@@ -1,25 +1,25 @@
-﻿using MySql.Data.MySqlClient;
+﻿using System.Linq;
+using MySql.Data.MySqlClient;
 
-namespace ZTxLib.Database
+namespace ZTxLib.Database.MySql
 {
-    public partial class MySQL
+    public partial class MySql
     {
-        internal class Reader : IReader
+        private class Reader : IReader
         {
-            private readonly MySqlDataReader reader;
-            public Reader(MySqlDataReader reader) => this.reader = reader;
-            public bool Read() => reader.Read();
-            public void Close() => reader.Close();
-            public bool IsClosed => reader.IsClosed;
-            public object this[int i] => reader[i];
-            public object this[string s] => reader[s];
-            public override string ToString()
-            {
-                string s = string.Empty;
-                foreach (var v in reader)
-                    s += ',' + v.ToString();
-                return s.Substring(1);
-            }
+            private readonly MySqlDataReader _reader;
+            public Reader(MySqlDataReader reader) => _reader = reader;
+            public bool Read() => _reader.Read();
+            public void Close() => _reader.Close();
+            public bool IsClosed => _reader.IsClosed;
+            public object this[int i] => _reader[i];
+            public object this[string s] => _reader[s];
+
+            public override string ToString() =>
+                _reader.Cast<object>()
+                    .Aggregate(string.Empty, (current, obj) =>
+                        current + (',' + obj.ToString()))
+                    .Substring(1);
         }
     }
 }

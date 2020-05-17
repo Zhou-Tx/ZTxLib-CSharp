@@ -1,21 +1,22 @@
 ﻿using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 
-namespace ZTxLib.Database
+namespace ZTxLib.Database.MySql
 {
-    public partial class MySQL : IDatabase
+    public partial class MySql : IDatabase
     {
-        private readonly MySqlConnection conn;
-        public MySQL(
-            string server = "localhost",
+        private readonly MySqlConnection _conn;
+
+        public MySql(
+            string host = "localhost",
             short port = 3306,
             string user = "",
             string password = "",
             string database = "",
-            string charset = "utf8",
-            short timeout = 5) => conn =
+            string charset = "utf8mb4",
+            short timeout = 5) => _conn =
             new MySqlConnection(
-                $"server={server};" +
+                $"server={host};" +
                 $"port={port};" +
                 $"user={user};" +
                 $"password={password};" +
@@ -26,19 +27,21 @@ namespace ZTxLib.Database
 
         public void Close()
         {
-            try { conn.Close(); } catch { }
-        }
-
-        private void Open()
-        {
-            Close();
-            conn.Open();
+            try
+            {
+                _conn.Close();
+            }
+            catch
+            {
+                // ignored
+            }
         }
 
         /// <summary>
         /// 提交一条语句，该函数可用于查询或修改，但不可携带参数
         /// </summary>
         /// <param name="sql"></param>
+        /// <param name="args"></param>
         /// <returns></returns>
         public IReader Execute(string sql, params object[] args) => Execute(new SqlCmd(sql, args));
 
@@ -49,9 +52,10 @@ namespace ZTxLib.Database
         /// <returns>查询结果</returns>
         public IReader Execute(SqlCmd sql)
         {
-            Open();
-            MySqlCommand cmd = new MySqlCommand(sql.SqlStr, conn);
-            for (int i = 0; i < sql.Args.Length; i++)
+            Close();
+            _conn.Open();
+            var cmd = new MySqlCommand(sql.SqlStr, _conn);
+            for (var i = 0; i < sql.Args.Length; i++)
                 cmd.Parameters.Add(new MySqlParameter($"param_{i}", sql.Args[i]));
             return new Reader(cmd.ExecuteReader());
         }
@@ -63,19 +67,21 @@ namespace ZTxLib.Database
         /// <returns>成功/失败</returns>
         public bool Execute(params SqlCmd[] sqls)
         {
-            Open();
-            MySqlTransaction trans = conn.BeginTransaction();
+            Close();
+            _conn.Open();
+            var trans = _conn.BeginTransaction();
             try
             {
-                foreach (SqlCmd sql in sqls)
+                foreach (var sql in sqls)
                 {
-                    using (MySqlCommand cmd = new MySqlCommand(sql.SqlStr, conn, trans))
+                    using (var cmd = new MySqlCommand(sql.SqlStr, _conn, trans))
                     {
-                        for (int i = 0; i < sql.Args.Length; i++)
+                        for (var i = 0; i < sql.Args.Length; i++)
                             cmd.Parameters.Add(new SqlParameter($"param_{i}", sql.Args[i]));
                         cmd.ExecuteNonQuery();
                     }
                 }
+
                 trans.Commit();
                 return true;
             }
@@ -86,7 +92,7 @@ namespace ZTxLib.Database
             }
             finally
             {
-                conn.Close();
+                _conn.Close();
             }
         }
     }

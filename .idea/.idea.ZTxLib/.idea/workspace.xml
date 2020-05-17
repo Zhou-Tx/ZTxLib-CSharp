@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7083f01d-2d4c-4fe9-8999-fddd7df4df71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/.idea.ZTxLib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ZTxLib/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/IDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/IDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/IReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/IReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.Reader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.Reader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.Reader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.Reader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Database/obj/Debug/ZTxLib.Database.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Database/obj/Debug/ZTxLib.Database.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Drawing/obj/Debug/ZTxLib.Drawing.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Drawing/obj/Debug/ZTxLib.Drawing.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib.Zip/obj/Debug/ZTxLib.Zip.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib.Zip/obj/Debug/ZTxLib.Zip.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib/obj/Debug/Interop.IWshRuntimeLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib/obj/Debug/Interop.IWshRuntimeLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib/obj/Debug/ZTxLib.csproj.ResolveComReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib/obj/Debug/ZTxLib.csproj.ResolveComReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZTxLib/obj/Debug/ZTxLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ZTxLib/obj/Debug/ZTxLib.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47DE75A-7E3F-422C-A4CA-64A654C80495/97/99db98f2/JArray.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.Reader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/IDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib/Parser/Json.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B988C68-D54E-4AA0-A055-0CBCA36BC286/bd/40297ae1/MySqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D47DE75A-7E3F-422C-A4CA-64A654C80495/1b/ea378c97/JToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/IReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B988C68-D54E-4AA0-A055-0CBCA36BC286/a7/b001e645/MySqlDataReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.Reader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ZTxLib/Parser/Json.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/MySQL/Reader.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/IReader.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/IDatabase.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.Reader.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.Reader.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/SqlServer/SqlServer.cs" />
+        <option value="$PROJECT_DIR$/ZTxLib.Database/MySQL/MySQL.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bneZpiKWIYVHrwUAGe7Unx91Bm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7083f01d-2d4c-4fe9-8999-fddd7df4df71" name="Default Changelist" comment="" />
+      <created>1589272342312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589272342312</updated>
+      <workItem from="1589272351338" duration="2794000" />
+      <workItem from="1589275294820" duration="492000" />
+      <workItem from="1589680111101" duration="1211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1589272653768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589272653768" />
+  </component>
+</project>
